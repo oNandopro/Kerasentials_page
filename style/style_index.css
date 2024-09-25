@@ -37,7 +37,7 @@ a {
 /* Header */
 header {
     display: flex;
-    background-color: #1F5046 ;
+    background-color: #211D50 ;
     color: white;
     padding: 20px;
     width: 100%;
@@ -60,9 +60,9 @@ header {
 }
 .button_one button {
     padding: 15px 35px;
-    background-color: #FDCF03;
+    background-color: #D54545;
     font-weight: 700;
-    color: #193f37;
+    color: white;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -70,7 +70,7 @@ header {
     transition: transform .2s ease;
 }
 .button_one button:hover {
-    color: #266155;
+    color: #211D50;
     transform: scale(1.03);
 }
 /* Main */
@@ -80,7 +80,7 @@ main {
     color: black;
     padding: 20px;
     width: 100%;
-    background-image: linear-gradient(#266155 60%, #35927F);
+    background-image: linear-gradient(#33AF93 60%, #BDDDD9);
 }
 .container_main {
     display: flex;
@@ -124,7 +124,7 @@ main {
     padding: 25px 85px;
     background-image: linear-gradient(#FFF84F 50%, #fdcf03bb 50%);
     font-weight: 500;
-    color: #193f37;
+    color: #211D50;
     border: none;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.599);
@@ -169,7 +169,7 @@ main {
     align-items: center;
     border-radius: 30px;
     height: 150px;
-    background-image: linear-gradient(#1c473f , #35927F);
+    background-color: #211D50;
     color: white;
     position: relative;
     margin-top: 50px;
@@ -182,7 +182,7 @@ main {
     transform: translateX(-50%);
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
-    border-top: 40px solid #35927F;
+    border-top: 40px solid #211D50;
 }
 .div_balloon {
     display: flex;
@@ -221,7 +221,7 @@ h3 {
     padding: 25px 85px;
     background-color: #FDCF03;
     font-weight: 700;
-    color: #193f37;
+    color: #211D50;
     border: none;
     border-radius: 20px;
     cursor: pointer;
@@ -264,6 +264,7 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    color: black;
 }
 .stars {
     display: flex;
@@ -282,7 +283,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.904); 
+    background-color: rgba(0, 0, 0, 0.541); 
     color: white;
     width: 100%;
     height: auto;
