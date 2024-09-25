@@ -159,6 +159,7 @@ main {
 }
 .p_certifications {
     margin-top: 20px;
+    margin-bottom: 50px;
     font-size: .9em;
     text-align: center;
 }
@@ -295,11 +296,14 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    width: 100%;
+    margin-top: 30px;
 }
 .div_footer_one {
     display: flex;
-    margin-top: 30px;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
 }
 h4 {
     padding: 10px;
@@ -343,7 +347,7 @@ footer h4 a {
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 110%;
+        max-width: 100%;
     }
     #a_cel {
         display: flex;
@@ -378,6 +382,17 @@ footer h4 a {
         height: 120px;
         padding: 10px;
         text-align: center;
+        background-color: #A86638;
+    }
+    .sec_balloon::before {
+        content: "";
+        position: absolute;
+        bottom: -38px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-top: 40px solid #A86638;
     }
     .div_balloon {
         font-size: 1em;
@@ -407,6 +422,7 @@ footer h4 a {
         flex-direction: column;
         background-color: #193f3759;
         height: auto;
+        font-size: 1em;
     }
     #guar {
         margin-top: 30px;
@@ -414,7 +430,6 @@ footer h4 a {
     }
     #h3_guarantee {
         margin-top: 0px;
-        font-size: 1.2em;
         text-align: center;
     }
     .button_find_out {
@@ -424,7 +439,7 @@ footer h4 a {
     .button_find_out button {
         margin-top: 50px;
         margin-bottom: 50px;
-        padding: 25px 85px;
+        padding: 15px 85px;
         width: 80%;
         background-color: #FDCF03;
         font-weight: 700;
@@ -453,11 +468,9 @@ footer h4 a {
     }
     /* SECTION FOOTER */
     .container_footer {
-        font-size: 0.5em;
-        height: 150px;
-    }
-    .div_footer_one {
-        margin-top: 20px;
+        font-size: 0.6em;
+        height: auto;
+        text-align: center;
     }
     h4 {
         padding: 5px;
