@@ -245,7 +245,6 @@ h3 {
     font-size: 1.3em;
 }
 #guar {
-    
     padding-left: 30px;
 }
 .div_guarantee {
@@ -327,13 +326,13 @@ footer h4 a {
     .sec_one {
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
+        padding: 20px;
+        font-size: 1.1em;
     }
     .imagem_cel {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
     }
     #a_cel {
         display: flex;
@@ -344,7 +343,7 @@ footer h4 a {
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 80%;
+        max-width: 110%;
     }
     #a_cel {
         display: flex;
@@ -352,7 +351,7 @@ footer h4 a {
         align-items: center;
     }
     .frase {
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .p_name p {
         margin-top: 15px;
@@ -376,9 +375,12 @@ footer h4 a {
     /* SECTION BALLOON */
     .sec_balloon {
         margin-top: 10px;
+        height: 120px;
+        padding: 10px;
+        text-align: center;
     }
     .div_balloon {
-        font-size: 1.5em;
+        font-size: 1em;
     }
     h2 {
         font-size: 0.8em;
@@ -390,7 +392,6 @@ footer h4 a {
         text-decoration: underline;
     }
     h3 {
-        font-size: 0.8em;
         margin-bottom: 20px;
     }
     .button_buy {
@@ -404,9 +405,12 @@ footer h4 a {
     /* SECTION FOUR */
     .sec_four {
         flex-direction: column;
+        background-color: #193f3759;
+        height: auto;
     }
     #guar {
-        width: 200px;
+        margin-top: 30px;
+        padding: 0px;
     }
     #h3_guarantee {
         margin-top: 0px;
