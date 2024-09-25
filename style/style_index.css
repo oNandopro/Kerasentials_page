@@ -242,7 +242,8 @@ h3 {
     border-radius: 30px;
 }
 #guar {
-    width: 300px;
+    
+    padding-left: 30px;
 }
 .div_guarantee {
     padding: 30px;
