@@ -37,8 +37,8 @@ a {
 /* Header */
 header {
     display: flex;
-    background-color: #000000 ;
-    color: #2F98CE;
+    background-color: #211D50 ;
+    color: white;
     padding: 20px;
     width: 100%;
     font-size: 1.5em;

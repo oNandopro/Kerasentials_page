@@ -168,11 +168,12 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    height: 150px;
+    height: 170px;
     background-color: #211D50;
     color: white;
     position: relative;
     margin-top: 50px;
+    font-size: 1.2em;
 }
 .sec_balloon::before {
     content: "";
@@ -238,8 +239,10 @@ h3 {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+    height: 300px;
     background-color: #00000034;
     border-radius: 30px;
+    font-size: 1.3em;
 }
 #guar {
     
