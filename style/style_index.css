@@ -86,6 +86,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     color: white;
     width: 1162px; 
     margin: 0 auto; 
@@ -170,8 +171,9 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    height: 170px;
-    background-color: #211D50;
+    height: 240px;
+    width: 100%;
+    background-image: linear-gradient(#211d50 30%, #362f86);
     color: white;
     position: relative;
     margin-top: 50px;
@@ -185,7 +187,7 @@ main {
     transform: translateX(-50%);
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
-    border-top: 40px solid #211D50;
+    border-top: 40px solid #362f86;
 }
 .div_balloon {
     display: flex;
@@ -197,6 +199,9 @@ main {
 }
 h2 {
     margin-top: 5px;
+}
+a {
+    color: #FDCF03;
 }
 /* SECTION THREE */
 .sec_three {
@@ -240,27 +245,43 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
-    height: 300px;
-    background-color: #00000034;
+    margin-top: 100px;
+    height: auto;
+    background-image:linear-gradient(#362f86 30%, #554ad1);
     border-radius: 30px;
     font-size: 1.3em;
+    width: 80%;
 }
 #guar {
-    padding-left: 30px;
+    padding-left: 50px;
 }
 .div_guarantee {
-    padding: 30px;
+    padding: 70px;
     text-align: justify;
 }
 #h3_guarantee {
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-decoration: none;
 }
-.button_find_out {
-    display: none;
+.button_find_out button {
+    margin-top: 50px;
+    padding: 25px 85px;
+    background-color: #FDCF03;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.599);
+    font-weight: 700;
+    color: #0e0c22;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.8em; 
+    transition: transform .2s ease;
 }
+.button_find_out button:hover {
+    color: #0e0c22;
+    transform: scale(1.03);
+}
+
 /* SECTION FIVE */
 .sec_five {
     display: flex;
@@ -287,7 +308,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.541); 
+    background-color: black; 
     color: white;
     width: 100%;
     height: auto;
