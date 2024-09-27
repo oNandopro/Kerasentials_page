@@ -243,12 +243,12 @@ h3 {
     color: #266155;
     transform: scale(1.03);
 }
-/* SECTION FOUR */
-.sec_four {
+/* SEC GUARANTEE */
+.sec_guarantee {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 150px;
     height: auto;
     background-image:linear-gradient(#362f8636 30%, #554ad144);
     border-radius: 30px;
@@ -269,7 +269,7 @@ h3 {
     text-decoration: none;
 }
 .button_find_out button {
-    margin-top: 50px;
+    margin-top: 150px;
     padding: 25px 85px;
     background-color: #FDCF03;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.599);
@@ -285,22 +285,58 @@ h3 {
     color: #0e0c22;
     transform: scale(1.03);
 }
-
-/* SECTION FIVE */
-.sec_five {
+/* SEC REFERENCE */
+.sec_reference {
+    margin-top: 150px;
+}
+.div_traco_ref {
+    width: 90%;
+    height: 2px;
+    background-color: #211D50;
+}
+.div_ref_scien {
+    color: #211D50;
+    margin-bottom: 50px;
+}
+.div_ref_scien h3 {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1.8em;
+    margin-top: 15px;
+}
+.div_img_ref {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img_ref {
+    width: 90%;
+}
+/* SEC STARS */
+.sec_stars {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 180px;
+    margin-top: 130px;
     color: black;
+}
+.div_traco_stars {
+    width: 100%;
+    height: 2px;
+    background-color: #211D50;
 }
 .stars {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.stars p {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 1.3em;
 }
 .img_stars {
     margin-left: 15px;
@@ -316,6 +352,7 @@ footer {
     color: black;
     width: 100%;
     height: auto;
+    border-top: #0e0c2213 1px solid;
 }
 .container_footer{
     display: flex;
@@ -433,8 +470,8 @@ footer h4 a {
         padding: 25px 80px;
         font-size: 1.8em; 
     }
-    /* SECTION FOUR */
-    .sec_four {
+    /* SECTION GUARANTEE */
+    .sec_guarantee {
         flex-direction: column;
         height: auto;
         font-size: 1em;
@@ -475,8 +512,8 @@ footer h4 a {
         color: #266155;
         transform: scale(1.03);
     }
-    /* SECTION FIVE */
-    .sec_five {
+    /* SECTION STARS */
+    .sec_stars {
         margin-top: 50px;
     }
     .stars {
@@ -589,8 +626,8 @@ footer h4 a {
         padding: 15px 80px;
         font-size: 1.5em; 
     }
-    /* SECTION FOUR */
-    .sec_four {
+    /* SECTION GUARANTEE */
+    .sec_guarantee {
         flex-direction: column;
         height: auto;
         font-size: 1.2em;
@@ -626,8 +663,8 @@ footer h4 a {
         color: #266155;
         transform: scale(1.03);
     }
-    /* SECTION FIVE */
-    .sec_five {
+    /* SECTION STARS */
+    .sec_stars {
         margin-top: 50px;
     }
     .stars {
