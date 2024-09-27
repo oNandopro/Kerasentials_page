@@ -19,7 +19,7 @@
     word-spacing: 0px;
     word-wrap: break-word; 
     box-sizing: border-box;
-    font-family: 'poppins', 'Quicksland', sans-serif;
+    font-family: 'Quicksland', sans-serif;
     
 }
 body {
@@ -47,12 +47,13 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 1162px; 
-    margin: 0 auto; 
+    margin: 0 auto;
+    height: 100px; 
 }
 .name_product h1 {
     justify-content: start;
     align-items: center;
-    font-size: 3.5em; 
+    font-size: 3em; 
     color: white;
 }
 .button_one {
@@ -302,7 +303,7 @@ h3 {
 }
 /* SEC REFERENCE */
 .sec_reference {
-    margin-top: 150px;
+    margin-top: 130px;
 }
 .div_traco_ref {
     width: 90%;
@@ -383,6 +384,16 @@ footer {
     padding: 20px;
     width: 100%;
 }
+.div_footer_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_footer_b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h4 {
     padding: 10px;
 }
@@ -394,6 +405,7 @@ footer div p a {
 }
 footer h4 a {
     color: black;
+    letter-spacing: 0px;
 }
 /* Media Query para telas menores (até 768px) */
 @media (max-width: 498px) {
@@ -457,8 +469,8 @@ footer h4 a {
     }
     /* SECTION BALLOON */
     .sec_balloon {
-        margin-top: 10px;
-        height: 150px;
+        margin-top: 0px;
+        height: 140px;
         padding: 10px;
         text-align: center;
     }
@@ -485,11 +497,16 @@ footer h4 a {
         padding: 25px 80px;
         font-size: 1.8em; 
     }
+    /* SEC TRAÇOS CURTOS */
+    .div_tracos_curt {
+        margin: 5px;
+    }    
     /* SECTION GUARANTEE */
     .sec_guarantee {
         flex-direction: column;
         height: auto;
         font-size: 1em;
+        margin-top: 8px;
     }
     #guar {
         margin-top: 30px;
@@ -527,9 +544,19 @@ footer h4 a {
         color: #266155;
         transform: scale(1.03);
     }
+    /* SEC REFERENCE */
+    .div_ref_scien {
+        display: none;
+    }
+    .div_img_ref {
+        display: none;
+    }
     /* SECTION STARS */
     .sec_stars {
         margin-top: 50px;
+    }
+    .div_traco_stars {
+        display: none;
     }
     .stars {
         flex-direction: column;
@@ -547,6 +574,9 @@ footer h4 a {
         font-size: 0.6em;
         height: auto;
         text-align: center;
+    }
+    .div_footer_one {
+        flex-direction: row;
     }
     h4 {
         padding: 5px;
