@@ -173,13 +173,13 @@ main {
     align-items: center;
     border-radius: 30px;
     height: 240px;
-    width: 100%;
+    width: 95%;
     background-image: linear-gradient(#554ad144 30%, #362f8631);
     color: #211D50;
     position: relative;
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 .sec_balloon::before {
     content: "";
@@ -256,7 +256,7 @@ h3 {
     width: 8px;
     height: 5px;
     background-color: #362f8631;
-    margin: 20px;
+    margin: 15px;
 }
 /* SEC GUARANTEE */
 .sec_guarantee {
@@ -268,7 +268,7 @@ h3 {
     background-image:linear-gradient(#362f8636 30%, #554ad144);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.599);
     border-radius: 30px;
-    font-size: 1.3em;
+    font-size: 1.4em;
     width: 80%;
     color: #211D50;
 }
@@ -469,16 +469,14 @@ footer h4 a {
     }
     /* SECTION BALLOON */
     .sec_balloon {
-        margin-top: 0px;
-        height: 140px;
+        margin-top: 50px;
+        height: 130px;
         padding: 10px;
         text-align: center;
-    }
-    .div_balloon {
-        font-size: 1em;
+        width: 95%;
     }
     h2 {
-        font-size: 0.8em;
+        font-size: 1em;
     }
     /* SECTION THREE */
     .sec_three {
@@ -505,7 +503,7 @@ footer h4 a {
     .sec_guarantee {
         flex-direction: column;
         height: auto;
-        font-size: 1em;
+        font-size: 1.2em;
         margin-top: 8px;
     }
     #guar {
@@ -545,6 +543,9 @@ footer h4 a {
         transform: scale(1.03);
     }
     /* SEC REFERENCE */
+    .sec_reference {
+        margin-top: 10px;
+    }
     .div_ref_scien {
         display: none;
     }
@@ -564,10 +565,14 @@ footer h4 a {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+    .stars p {
+        font-size: 1em;
+    }
     .img_stars {
+        margin-top: 5px;
         margin-left: 5px;
         margin-right: 5px;
-        width: 70px;
+        width: 100px;
     }
     /* SECTION FOOTER */
     .container_footer {
@@ -577,6 +582,10 @@ footer h4 a {
     }
     .div_footer_one {
         flex-direction: row;
+    }
+    footer div p  {
+        font-size: 1.2em;
+        letter-spacing: 0px;
     }
     h4 {
         padding: 5px;
@@ -595,7 +604,7 @@ footer h4 a {
         display: flex;
         flex-direction: column;
         padding: 20px;
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     .imagem_cel {
         display: flex;
@@ -632,13 +641,13 @@ footer h4 a {
     }
     /* SECTION TWO */
     .img_sec_two {
-        width: 60%;
+        width: 80%;
         height: auto;
     }
     .p_certifications {
         margin-top: 20px;
         margin-bottom: 10;
-        font-size: .8em;
+        font-size: 1em;
         text-align: center;
     }
     /* SECTION BALLOON */
@@ -647,12 +656,10 @@ footer h4 a {
         height: 210px;
         padding: 10px;
         text-align: center;
-    }
-    .div_balloon {
-        font-size: 1.5em;
+        width: 95%;
     }
     h2 {
-        font-size: 0.8em;
+        font-size: 1.7em;
     }
     /* SECTION THREE */
     .sec_three {
@@ -671,11 +678,15 @@ footer h4 a {
         padding: 15px 80px;
         font-size: 1.5em; 
     }
+     /* SEC TRAÇOS CURTOS */
+     .div_tracos_curt {
+        margin: 5px;
+    }  
     /* SECTION GUARANTEE */
     .sec_guarantee {
         flex-direction: column;
         height: auto;
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
     #guar {
         margin-top: 50px;
@@ -708,9 +719,22 @@ footer h4 a {
         color: #266155;
         transform: scale(1.03);
     }
+    /* SEC REFERENCE */
+    .sec_reference {
+        margin-top: 30px;
+    }
+    .div_ref_scien {
+        display: none;
+    }
+    .div_img_ref {
+        display: none;
+    }
     /* SECTION STARS */
     .sec_stars {
         margin-top: 50px;
+    }
+    .div_traco_stars {
+        display: none;
     }
     .stars {
         flex-direction: column;
@@ -729,7 +753,12 @@ footer h4 a {
         height: auto;
         text-align: center;
     }
+    footer div p  {
+        font-size: 1.3em;
+        letter-spacing: 0px;
+    }
     h4 {
+        font-size: 1.2em;
         padding: 5px;
     }
 }
@@ -751,8 +780,11 @@ footer h4 a {
     }
     /* MAIN */
     /* SECTION ONE */
+    .sec_one {
+        padding-left: 30px;
+    }
     #img_one {
-        width: 80%;
+        width: 100%;
     }
     .frase {
         margin-top: 30px;
@@ -774,15 +806,98 @@ footer h4 a {
         padding: 25px 85px;
         font-size: 1.8em; 
     }
+    /* SECTION TWO */
+    .img_sec_two {
+        width: 60%;
+        height: auto;
+    }
+    /* SECTION BALLOON */
+    .sec_balloon {
+        margin-top: 50px;
+        height: 190px;
+        padding: 10px;
+        text-align: center;
+        width: 90%;
+    }
+    h2 {
+        font-size: 1.7em;
+    }
+     /* SEC TRAÇOS CURTOS */
+     .div_tracos_curt {
+        margin: 9px;
+    }  
+    /* SECTION GUARANTEE */
+    .sec_guarantee {
+        flex-direction: column;
+        height: auto;
+        font-size: 1.4em;
+    }
+    #guar {
+        margin-top: 50px;
+        padding: 0px;
+    }
+    #h3_guarantee {
+        margin-top: -30px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .button_find_out {
+        display: flex;
+        text-align: center;
+    }
+    .button_find_out button {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 15px 85px;
+        width: 80%;
+        background-color: #FDCF03;
+        font-weight: 700;
+        color: #193f37;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 1.5em; 
+        transition: transform .2s ease;
+    }
+    .button_find_out button:hover {
+        color: #266155;
+        transform: scale(1.03);
+    }
+    /* SEC REFERENCE */
+    .sec_reference {
+        margin-top: 30px;
+    }
+    /* SECTION STARS */
+    .sec_stars {
+        margin-top: 50px;
+    }
+    .div_traco_stars {
+        display: none;
+    }
+    .stars {
+        flex-direction: column;
+        font-size: .9em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .img_stars {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 150px;
+    }
     /* SECTION FOOTER */
     .container_footer {
-        font-size: 0.9em;
-        height: 150px;
+        font-size: 0.8em;
+        height: auto;
+        text-align: center;
     }
-    .div_footer_one {
-        margin-top: 20px;
+    footer div p  {
+        font-size: 1.3em;
+        letter-spacing: 1px;
     }
-    h4 {
-        padding: 12px;
+    .div_footer_one h4 {
+        font-size: 1.2em;
+        padding: 10px;
     }
 }
