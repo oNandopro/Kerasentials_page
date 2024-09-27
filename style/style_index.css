@@ -469,14 +469,14 @@ footer h4 a {
     }
     /* SECTION BALLOON */
     .sec_balloon {
-        margin-top: 50px;
+        margin-top: 0px;
         height: 130px;
         padding: 10px;
         text-align: center;
         width: 95%;
     }
     h2 {
-        font-size: 1em;
+        font-size: .9em;
     }
     /* SECTION THREE */
     .sec_three {
@@ -652,14 +652,14 @@ footer h4 a {
     }
     /* SECTION BALLOON */
     .sec_balloon {
-        margin-top: 10px;
+        margin-top: 40px;
         height: 210px;
         padding: 10px;
         text-align: center;
         width: 95%;
     }
     h2 {
-        font-size: 1.7em;
+        font-size: 1.4em;
     }
     /* SECTION THREE */
     .sec_three {
@@ -820,7 +820,7 @@ footer h4 a {
         width: 90%;
     }
     h2 {
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
      /* SEC TRAÇOS CURTOS */
      .div_tracos_curt {
